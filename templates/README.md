@@ -1,14 +1,15 @@
-<!-- The following shields are provided as examples, but you can add others if you wish, based on monitoring or certain builds for example. For more information, visit https://shields.io/badges -->
-
-![license-shield][LICENSE-SHIELD-URI] ![openened-issues-shield][ISSUES-SHIELD-URI] ![opened-pr-shield][PR-SHIELD-URI] ![contributors -shield][CONTRIBUTORS-SHIELD-URI]
-
-<div style="text-align:center;">
+<div style="display:flex;flex-direction:column;align-items:center;">
 
   <h1>Project Name</h1>
 
 <!-- ---------------- OPTIONAL ---------------- -->
-<img src="../assets/Github-templates.png" alt=""/>
+<img style="width:150px;" src="../assets/Github-templates.png" alt="The application logo"/>
 <!-- ---------------- OPTIONAL ---------------- -->
+
+<!-- The following shields are provided as examples, but you can add others if you wish, based on monitoring or certain builds for example. For more information, visit https://shields.io/badges -->
+
+![license-shield][LICENSE-SHIELD-URI] ![openened-issues-shield][ISSUES-SHIELD-URI] ![opened-pr-shield][PR-SHIELD-URI] ![contributors -shield][CONTRIBUTORS-SHIELD-URI]
+
 </div>
 
 ## Description
@@ -17,8 +18,8 @@
 
 ## Table of Contents
 
-1. [Installation](#installation)
-   1.1. [Configuration](#configuration)
+1. [Installation](#installation)</br>
+   1.1. [Configuration](#configuration)</br>
    1.2. [Usage](#usage)
 2. [Contributing](#contributing)
 3. [License](#license)
@@ -62,7 +63,7 @@ Explain how you can contribute to your project.
 git checkout -b feature/description/task-id develop
 ```
 
-2. **Make your changes**
+2. **Make your changes** </br>
    Try to break down your work as much as possible on the branch.
 
 3. **Commit your changes**
@@ -78,7 +79,7 @@ git push
 git push origin <your-branch>
 ```
 
-4. **Submit a Pull Request**
+4. **Submit a Pull Request** </br>
    Open a pull request to the main repository. Provide a detailed description of your changes, the problem they solve, and any additional context.
 
 ## License
@@ -86,11 +87,15 @@ git push origin <your-branch>
 This project is licensed under the MIT License - see the [LICENSE][LICENSE-URI] file for details.
 
 <!-- MARKDOWN VARIABLES -->
-<!-- MARKDOWN VARIABLES are USEFUL BECAUSE YOU CAN REUSE THEM IN YOUR FILE -->
+
+<!-- MARKDOWN VARIABLES ARE USEFUL BECAUSE YOU CAN REUSE THEM IN YOUR FILE -->
 
 [LOGO-PATH]: ../images/Github-templates.png
+[REPO-STARS-SHIELD-URI]: https://img.shields.io/github/stars/BREBION-Mathis/Github-templates?style=social&logo=github&logoSize=auto
 [LICENSE-SHIELD-URI]: https://img.shields.io/github/license/BREBION-Mathis/Github-templates?style=flat-square&color=%23abv235
 [ISSUES-SHIELD-URI]: https://img.shields.io/github/issues/BREBION-Mathis/Github-templates?style=flat-square&color=FFA500
 [PR-SHIELD-URI]: https://img.shields.io/github/issues-pr/BREBION-Mathis/Github-templates?style=flat-square&color=FFA500
 [CONTRIBUTORS-SHIELD-URI]: https://img.shields.io/github/contributors/BREBION-Mathis/Github-templates?style=flat-square&color=6495ED
 [LICENSE-URI]: ../LICENSE
+
+<!-- MARKDOWN VARIABLES -->
