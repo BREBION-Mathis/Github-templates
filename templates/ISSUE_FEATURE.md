@@ -1,42 +1,92 @@
-# Feature Request: [Clear and Descriptive Title]
+---
+name: Feature Request
+about: Suggest a new feature or improvement
+title: "[FEATURE] <short description>"
+labels: enhancement
+assignees: ""
+---
 
-## Context
+<!-- Thank you for taking the time to suggest an improvement. Please fill in as much detail as possible. -->
 
-Explain the current problem or opportunity. Describe why this improvement is necessary or how it can enhance the project.
+## Problem Statement
 
-## Request Description
+> What problem does this feature solve? Describe the limitation or pain point you are facing.
 
-Provide a detailed description of the requested feature. Explain what the new feature should do and how it might work.
+_"I'm frustrated when..."_ or _"It is currently impossible to..."_
+
+---
+
+## Proposed Solution
+
+> Describe the feature you would like to see. Be as specific as possible about how it should work.
+
+---
+
+## Acceptance Criteria
+
+> Define the exact conditions that must be met for this feature to be considered complete.
+
+- [ ] Given `<context>`, when `<action>`, then `<expected outcome>`
+- [ ] ...
+
+---
+
+## Alternatives Considered
+
+> Describe any alternative solutions or approaches you have considered and why you ruled them out.
+
+---
 
 ## Expected Benefits
 
-Describe the specific benefits this improvement would bring, such as:
+> Explain the concrete value this feature brings:
 
-- **Better User Experience**: Improvement of the interface or user experience.
-- **Time Savings**: Automation of manual tasks.
-- **Performance Improvement**: Optimization of response time, etc.
+- **User Experience** — e.g., reduces the number of steps to complete a task
+- **Performance** — e.g., eliminates redundant API calls
+- **Developer Experience** — e.g., simplifies the API surface
 
-## Use Case Example
+---
 
-Propose one or more scenarios where this feature would be used.
+## User Story
 
-**Example**:
+> Describe one or more real-world scenarios in which this feature would be used.
 
-1. The user accesses page X.
-2. The user clicks on button Y.
-3. The new feature Z is activated and...
+**As a** `<type of user>`, **I want** `<some goal>` **so that** `<some reason>`.
 
-## New Dependencies/Constraints (if applicable)
+**Example flow:**
 
-List any new dependencies (libraries, APIs, etc.) or technical constraints related to this request.
+1. User navigates to `...`
+2. User performs `...`
+3. The new feature `...` and the user can now `...`
 
-## Mockups/Screenshots (Optional)
+---
 
-You can add screenshots or mockups that could help visualize the feature.
+## New Dependencies / Constraints
+
+<!-- Optional: List any new libraries, APIs, or technical constraints implied by this request. -->
+
+---
+
+## Mockups / Wireframes
+
+<!-- Optional: Attach mockups, sketches, or links to design files. -->
+
+---
+
+## Impact & Priority
+
+> Help us prioritise this request:
+
+- [ ] **High** — Blocks a critical workflow or affects a large number of users
+- [ ] **Medium** — Useful improvement for a significant portion of users
+- [ ] **Low** — Nice to have, niche use case
+
+---
 
 ## Checklist
 
-- [ ] I've checked that a similar request doesn't already exist.
-- [ ] I've described the request clearly and in detail.
-- [ ] I'm willing to collaborate to clarify or refine this request if necessary.
-- [ ] I'm capable of taking charge of this request.
+- [ ] I have searched for [existing feature requests](../../issues) and confirmed this is not a duplicate
+- [ ] I have clearly described the problem and the proposed solution
+- [ ] I have defined acceptance criteria
+- [ ] I am willing to collaborate to clarify or refine this request
+- [ ] I am able to implement this feature or contribute to it
