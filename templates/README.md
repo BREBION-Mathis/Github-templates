@@ -1,101 +1,158 @@
-<div style="display:flex;flex-direction:column;align-items:center;">
+<div align="center">
 
-  <h1>Project Name</h1>
+# Project Name
 
-<!-- ---------------- OPTIONAL ---------------- -->
-<img style="width:150px;" src="../assets/Github-templates.png" alt="The application logo"/>
-<!-- ---------------- OPTIONAL ---------------- -->
+<!-- Optional: replace with your project logo -->
+<!-- <img src="./assets/logo.png" alt="Project Logo" width="150" /> -->
 
-<!-- The following shields are provided as examples, but you can add others if you wish, based on monitoring or certain builds for example. For more information, visit https://shields.io/badges -->
+> A brief, compelling one-liner that describes what this project does.
 
-![license-shield][LICENSE-SHIELD-URI] ![openened-issues-shield][ISSUES-SHIELD-URI] ![opened-pr-shield][PR-SHIELD-URI] ![contributors -shield][CONTRIBUTORS-SHIELD-URI]
+<!-- For more badge options, visit https://shields.io/badges -->
+
+![License][LICENSE-SHIELD] ![Build Status][BUILD-SHIELD] ![Code Coverage][COVERAGE-SHIELD] ![Issues][ISSUES-SHIELD] ![Pull Requests][PR-SHIELD] ![Contributors][CONTRIBUTORS-SHIELD]
+
+<!-- Optional deployment badges -->
+<!-- ![Netlify Status][NETLIFY-SHIELD] -->
+<!-- ![Vercel Status][VERCEL-SHIELD] -->
 
 </div>
 
+---
+
 ## Description
 
-> A brief description of the project and its purpose. Include a high-level overview of what the project does and its key features.
+Provide a clear and detailed overview of the project:
+
+- What problem does it solve?
+- Who is it for?
+- What are the key features?
+
+---
 
 ## Table of Contents
 
-1. [Installation](#installation)</br>
-   1.1. [Configuration](#configuration)</br>
-   1.2. [Usage](#usage)
-2. [Contributing](#contributing)
-3. [License](#license)
+1. [Prerequisites](#prerequisites)
+2. [Installation](#installation)
+3. [Configuration](#configuration)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
+
+## Prerequisites
+
+List everything required before installing the project:
+
+- [Node.js](https://nodejs.org/) v18+
+- [Docker](https://www.docker.com/) (optional)
+- Any API keys or environment variables (see [Configuration](#configuration))
+
+---
 
 ## Installation
 
-Explain any configuration options, including where configuration files are located, if applicable.
+```bash
+# 1. Clone the repository
+git clone https://github.com/<username>/<repo>.git
+cd <repo>
 
-### Configuration
+# 2. Install dependencies
+npm install             # Node.js
+bun install             # Bun
+pip install -r requirements.txt   # Python
+```
 
-1. **Prerequisites**: List any software requirements (e.g., Python 3.x, Node.js).
+---
 
-2. **Steps**:
+## Configuration
+
+Copy the example environment file and fill in the required values:
+
+```bash
+cp .env.example .env
+```
+
+| Variable       | Description                        | Default |
+| -------------- | ---------------------------------- | ------- |
+| `PORT`         | Port the server listens on         | `3000`  |
+| `DATABASE_URL` | Connection string for the database | —       |
+
+---
+
+## Usage
+
+```bash
+# Development
+npm run dev
+
+# Production
+npm start
+```
+
+Add more examples, code snippets, or GIFs demonstrating the project in action.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please read through the guidelines below before submitting.
+
+### Branch Naming Convention
+
+| Type          | Pattern                 |
+| ------------- | ----------------------- |
+| Feature       | `feature/<description>` |
+| Bug fix       | `fix/<description>`     |
+| Hotfix        | `hotfix/<description>`  |
+| Documentation | `docs/<description>`    |
+
+### Workflow
+
+1. **Fork** the repository and create your branch from `develop` (or main if it's a hotfix):
 
    ```bash
-   # Clone the repository
-   git clone https://github.com/username/repo.git
-   cd repo
-
-   # Install dependencies
-   npm install # or pip install -r requirements.txt
+   git checkout -b feature/your-feature main
    ```
 
-### Usage
+2. **Make your changes** — keep commits small and focused.
 
-```bash
-# Example command to start the project
-npm start # or python main.py
-```
+3. **Commit** following [Conventional Commits](https://www.conventionalcommits.org/):
 
-### Contributing
+   ```bash
+   git commit -m "feat: add user authentication"
+   git commit -m "fix: resolve login redirect loop"
+   ```
 
-Explain how you can contribute to your project.
+4. **Push** your branch and **open a Pull Request**:
 
-<u>**Steps for a feature:**</u>
+   ```bash
+   git push origin feature/your-feature
+   ```
 
-1. **Create a feature branch either via the interface or command line:**
+5. Fill in the Pull Request template and request a review.
 
-```bash
-# Create a new branch from develop
-git checkout -b feature/description/task-id develop
-```
+> Please ensure all automated tests pass and your code follows the project's coding style before submitting.
 
-2. **Make your changes** </br>
-   Try to break down your work as much as possible on the branch.
-
-3. **Commit your changes**
-
-```bash
-# Add modified files
-git add .
-git commit -m "Your commit message"
-
-# Push files to the remote git repository
-git push
-# or if it's the first push
-git push origin <your-branch>
-```
-
-4. **Submit a Pull Request** </br>
-   Open a pull request to the main repository. Provide a detailed description of your changes, the problem they solve, and any additional context.
+---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE][LICENSE-URI] file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
-<!-- MARKDOWN VARIABLES -->
+---
 
-<!-- MARKDOWN VARIABLES ARE USEFUL BECAUSE YOU CAN REUSE THEM IN YOUR FILE -->
+<!-- SHIELD VARIABLES -->
 
-[LOGO-PATH]: ../images/Github-templates.png
-[REPO-STARS-SHIELD-URI]: https://img.shields.io/github/stars/BREBION-Mathis/Github-templates?style=social&logo=github&logoSize=auto
-[LICENSE-SHIELD-URI]: https://img.shields.io/github/license/BREBION-Mathis/Github-templates?style=flat-square&color=%23abv235
-[ISSUES-SHIELD-URI]: https://img.shields.io/github/issues/BREBION-Mathis/Github-templates?style=flat-square&color=FFA500
-[PR-SHIELD-URI]: https://img.shields.io/github/issues-pr/BREBION-Mathis/Github-templates?style=flat-square&color=FFA500
-[CONTRIBUTORS-SHIELD-URI]: https://img.shields.io/github/contributors/BREBION-Mathis/Github-templates?style=flat-square&color=6495ED
-[LICENSE-URI]: ../LICENSE
+[LICENSE-SHIELD]: https://img.shields.io/github/license/<username>/<repo>?style=flat-square
+[BUILD-SHIELD]: https://img.shields.io/github/actions/workflow/status/<username>/<repo>/<workflow-file>.yml?style=flat-square&logo=github
+[COVERAGE-SHIELD]: https://img.shields.io/codecov/c/github/<username>/<repo>?style=flat-square&logo=codecov
+[ISSUES-SHIELD]: https://img.shields.io/github/issues/<username>/<repo>?style=flat-square&color=FFA500
+[PR-SHIELD]: https://img.shields.io/github/issues-pr/<username>/<repo>?style=flat-square&color=FFA500
+[CONTRIBUTORS-SHIELD]: https://img.shields.io/github/contributors/<username>/<repo>?style=flat-square&color=6495ED
+
+<!-- Optional deployment shield variables -->
+<!-- [NETLIFY-SHIELD]: https://img.shields.io/netlify/<netlify-site-id>?style=flat-square&logo=netlify -->
+<!-- [VERCEL-SHIELD]: https://img.shields.io/badge/vercel-deployed-black?style=flat-square&logo=vercel -->
 
 <!-- MARKDOWN VARIABLES -->
